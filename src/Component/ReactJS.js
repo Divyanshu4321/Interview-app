@@ -10,7 +10,7 @@ const ReactJS = () => {
         <ol>
           <h2>
             <li>
-              What is react ?
+              What is react ? <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 React is an open-source javascript-library used to create
@@ -21,7 +21,7 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              What is Jsx ?
+              What is Jsx ? <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 JSX (JavaScript XML) is a syntax extension that allows you to
@@ -30,7 +30,7 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              What is the Routing ?
+              What is the Routing ? <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 React Router is a standard library for routing in React. It
@@ -74,7 +74,7 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              what is the state ?
+              what is the state ? <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 In React, state refers to an object that holds some information
@@ -103,7 +103,8 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              what is the props ?
+              what is the props ?{" "}
+              <sup className="bg-danger px-3"> very simple</sup>
               <br />
               <h4 className="mt-3">
                 Props in React are like instructions or data that parent
@@ -115,7 +116,8 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              What is the props drilling ?
+              What is the props drilling ?{" "}
+              <sup className="bg-danger px-3">very simple</sup>
               <br />
               <h4 className="mt-3">
                 Props drilling, also known as prop tunneling, is a situation in
@@ -144,7 +146,8 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              what is the functions base components ?
+              what is the functions base components ?{" "}
+              <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 A functional component is a plain JavaScript function that takes
@@ -155,7 +158,8 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              What is the virtual DOM ?
+              What is the virtual DOM ?{" "}
+              <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 Sure! The virtual DOM is a lightweight copy of the real DOM.
@@ -165,7 +169,8 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-              what is the life cycle method in functioin base components ?
+              what is the life cycle method in functioin base components ?{" "}
+              <sup className="bg-warning px-3">Medium</sup>
               <br />
               <h4 className="mt-3">
                 In React, functional components don’t have traditional lifecycle
@@ -194,7 +199,8 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className=" my-5">
-              what is the life cycle method in class base components ?
+              what is the life cycle method in class base components ?{" "}
+              <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 In React class-based components, lifecycle methods are special
@@ -221,36 +227,60 @@ const ReactJS = () => {
               </h4>
             </li>
             <li className="my-5">
-            what is the Hook ?
+              what is the Hook ? <sup className="bg-danger px-3">simple</sup>
               <br />
               <h4 className="mt-3">
                 In React, a Hook is a special function that lets you “hook into”
                 React features such as state and lifecycle methods from function
                 components. Introduced in React 16.8, Hooks allow you to use
-                state and other React features without writing a class
-                component
-                
-                12. Here are some key points about Hooks: State
-                Management: Hooks like useState allow you to add state to
-                functional components. Side Effects: Hooks like useEffect let
-                you perform side effects in function components. Rules: Hooks
-                can only be called at the top level of a function component or
-                from other custom Hooks. 
+                state and other React features without writing a class component
+                12. Here are some key points about Hooks: State Management:
+                Hooks like useState allow you to add state to functional
+                components. Side Effects: Hooks like useEffect let you perform
+                side effects in function components. Rules: Hooks can only be
+                called at the top level of a function component or from other
+                custom Hooks.
               </h4>
             </li>
             <li className="my-5">
-            what is the props drilling ?
-            <br />
-            <h4 className="mt-3">
-            Props drilling, also known as prop tunneling, is a situation in React where you pass props through multiple levels of components to reach a deeply nested component that needs the data, even though the intermediate components do not use the data themselves.
-            <ol>
-
-              <li> It can make the code harder to read and maintain, as you have to follow the flow of props through multiple levels of components.</li>
-              <li> It can make components less reusable, as they become tightly coupled to the structure of the application.</li>
-              <li> It can cause performance issues, especially if the props are being passed down through many levels of components.</li>
-            </ol>
-              </h4> 
-
+              what is the props drilling ?{" "}
+              <sup className="bg-danger px-3">simple</sup>
+              <br />
+              <h4 className="mt-3">
+                Props drilling, also known as prop tunneling, is a situation in
+                React where you pass props through multiple levels of components
+                to reach a deeply nested component that needs the data, even
+                though the intermediate components do not use the data
+                themselves.
+                <ol>
+                  <li>
+                    {" "}
+                    It can make the code harder to read and maintain, as you
+                    have to follow the flow of props through multiple levels of
+                    components.
+                  </li>
+                  <li>
+                    {" "}
+                    It can make components less reusable, as they become tightly
+                    coupled to the structure of the application.
+                  </li>
+                  <li>
+                    {" "}
+                    It can cause performance issues, especially if the props are
+                    being passed down through many levels of components.
+                  </li>
+                </ol>
+              </h4>
+            </li>
+            <li className="my-5">
+              what is the error boundries ?{" "}
+              <sup className="bg-danger px-3">very simple</sup>
+              <h4 className="mt-3">
+                Error boundaries in React are special components that catch
+                JavaScript errors anywhere in their child component tree, log
+                those errors, and display a fallback UI instead of crashing the
+                whole app. They act like a safety net for your app’s components.
+              </h4>
             </li>
           </h2>
         </ol>
