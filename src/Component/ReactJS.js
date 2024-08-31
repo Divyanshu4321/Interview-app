@@ -294,6 +294,24 @@ const ReactJS = () => {
                 directly.
               </h4>
             </li>
+            <li className="my-5">
+              what is usestate hook ?{" "}
+              <sup className="bg-danger px-3"> very very simple</sup>
+              <h4 className="mt-3">
+                The useState hook in React is a function that allows you to add
+                state to functional components.
+              </h4>
+            </li>
+            <li className="my-5">
+              what is the useEffect Hook ?{" "}
+              <sup className="bg-danger px-3"> very very simple</sup>
+              <h4 className="mt-3">
+                The useEffect hook in React allows you to perform side effects
+                in your functional components. Side effects can include tasks
+                like fetching data, directly manipulating the DOM, or setting up
+                subscriptions.
+              </h4>
+            </li>
           </h2>
         </ol>
       </div>
