@@ -238,6 +238,20 @@ const ReactJS = () => {
                 from other custom Hooks. 
               </h4>
             </li>
+            <li className="my-5">
+            what is the props drilling ?
+            <br />
+            <h4 className="mt-3">
+            Props drilling, also known as prop tunneling, is a situation in React where you pass props through multiple levels of components to reach a deeply nested component that needs the data, even though the intermediate components do not use the data themselves.
+            <ol>
+
+              <li> It can make the code harder to read and maintain, as you have to follow the flow of props through multiple levels of components.</li>
+              <li> It can make components less reusable, as they become tightly coupled to the structure of the application.</li>
+              <li> It can cause performance issues, especially if the props are being passed down through many levels of components.</li>
+            </ol>
+              </h4> 
+
+            </li>
           </h2>
         </ol>
       </div>
