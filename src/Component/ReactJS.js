@@ -282,6 +282,18 @@ const ReactJS = () => {
                 whole app. They act like a safety net for your app’s components.
               </h4>
             </li>
+            <li className="my-5">
+              What is HOC ?{" "}
+              <sup className="bg-danger px-3"> very very simple</sup>
+              <h4 className="mt-3">
+                A Higher-Order Component (HOC) in React is a function that takes
+                a component and returns a new component with additional props or
+                behavior. HOCs are a pattern for reusing component logic and can
+                be used to add functionality like logging, authorization, or
+                data fetching to components without modifying their code
+                directly.
+              </h4>
+            </li>
           </h2>
         </ol>
       </div>
