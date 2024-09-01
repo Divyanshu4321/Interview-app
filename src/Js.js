@@ -49,6 +49,16 @@ const Js = () => {
                 function has finished its execution.
               </h4>
             </li>
+            <li className="my-5">
+              what is the hoisting in js ?
+              <br />
+              <h4 className="mt-3">
+                Hoisting in JavaScript is a behavior where variable and function
+                declarations are moved to the top of their containing scope
+                during the compilation phase. This means you can use variables
+                and functions before you declare them in your code.
+              </h4>
+            </li>
           </h2>
         </ol>
       </div>
