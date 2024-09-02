@@ -323,6 +323,10 @@ const Js = () => {
                 Sent by Copilot: In JavaScript, null and undefined are both used
                 to represent the absence of a value, but they have different
                 meanings and uses:
+                <br />
+                Indicates that a variable has been declared but not yet assigned a value.
+                <br /><br />
+                Represents the intentional absence of any object value.
               </h4>
             </li>
           </h2>
