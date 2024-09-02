@@ -246,24 +246,38 @@ const Js = () => {
                 functions. They were introduced in ES6 (ECMAScript 2015) and
                 have a more concise syntax compared to traditional functions.
                 <br />
-                Key features <br /><br />
-                    1. **Shorter Syntax**: <br />
-                       - Arrow functions use {`=>`} (fat arrow) and often require fewer characters. <br />
-                       - No need to use the `function` keyword. <br />
-                       - For a single-line function, you can omit the `return` keyword and curly braces. <br />
-<br /><br />
-                       javascript <br />
-                       const square = x {'=>'} x * x; // One parameter, no need for parentheses <br />
-                       const greet = () {"=>"} 'Hello'; // No parameters, need parentheses <br />
-                       
-<br /><br />
-                    2. **Implicit Return**: <br />
-                       - If the function body is a single expression, the value is returned automatically. <br />
-
-                       javascript <br />
-                       const multiply = (a, b) {"=>"} a * b; // Implicit return <br />
-                       
+                Key features <br />
+                <br />
+                1. **Shorter Syntax**: <br />- Arrow functions use {`=>`} (fat
+                arrow) and often require fewer characters. <br />
+                - No need to use the `function` keyword. <br />
+                - For a single-line function, you can omit the `return` keyword
+                and curly braces. <br />
+                <br />
+                <br />
+                javascript <br />
+                const square = x {"=>"} x * x; // One parameter, no need for
+                parentheses <br />
+                const greet = () {"=>"} 'Hello'; // No parameters, need
+                parentheses <br />
+                <br />
+                <br />
+                2. **Implicit Return**: <br />
+                - If the function body is a single expression, the value is
+                returned automatically. <br />
+                javascript <br />
+                const multiply = (a, b) {"=>"} a * b; // Implicit return <br />
               </h4>
+              <li className="my-5">
+                difference between == and === operator ?
+                <h4 className="mt-3">
+                  The main difference between the two operators is how they
+                  compare values. The == operator compares the values of two
+                  variables after performing type conversion if necessary. On
+                  the other hand, the === operator compares the values of two
+                  variables without performing type conversion.
+                </h4>
+              </li>
             </li>
           </h2>
         </ol>
