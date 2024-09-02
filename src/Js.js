@@ -100,6 +100,7 @@ const Js = () => {
                 </ol>
               </h4>
             </li>
+
             <li className="my-5">
               what is the object and tell some importance method of object ?
               <br />
@@ -122,6 +123,7 @@ const Js = () => {
                 </ol>
               </h4>
             </li>
+
             <li className="my-5">
               what is json
               <br />
@@ -182,6 +184,7 @@ const Js = () => {
                 useful for more complex applications12.
               </h4>
             </li>
+
             <li className="my-5">
               what is the single threaded langauges ?
               <h4 className="mt-3">
@@ -239,6 +242,7 @@ const Js = () => {
                 sessionStorage.clear(): Clears all key-value pairs. <br />
               </h4>
             </li>
+
             <li className="my-5">
               what are the arrow functions ?
               <h4 className="mt-3">
@@ -278,6 +282,48 @@ const Js = () => {
                   variables without performing type conversion.
                 </h4>
               </li>
+              <li className="my-5">
+                what is the mean by self invoking function ?
+                <br />
+                <h4 className="mt-3">
+                  A self-invoking function, also known as an immediately invoked
+                  function expression (IIFE), is a JavaScript function that runs
+                  as soon as it is defined. The primary reason to use a
+                  self-invoking function is to obtain data privacy because any
+                  variables declared within the IIFE cannot be accessed by the
+                  outside world.
+                </h4>
+              </li>
+            </li>
+            <li className="my-5">
+              what is the client-side JavaScript
+              <br />
+              <h4 className="mt-3">
+                Client-side JavaScript refers to JavaScript code that runs in
+                the user’s web browser, rather than on a server. This allows web
+                pages to be interactive and dynamic, providing a better user
+                experience.
+              </h4>
+            </li>
+            <li className="my-5">
+              what is the server side js ?
+              <br />
+              <h4 className="mt-3">
+                Server-side JavaScript refers to JavaScript code that runs on a
+                server, rather than in the user’s web browser. This allows
+                JavaScript to handle backend tasks such as database operations,
+                file handling, and server logic. One of the most popular
+                environments for server-side JavaScript is Node.js.
+              </h4>
+            </li>
+            <li>
+              what is the differnce between null and undefined ?
+              <br />
+              <h4 className="mt-3">
+                Sent by Copilot: In JavaScript, null and undefined are both used
+                to represent the absence of a value, but they have different
+                meanings and uses:
+              </h4>
             </li>
           </h2>
         </ol>
