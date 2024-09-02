@@ -13,8 +13,8 @@ function App() {
       <BrowserRouter>
         <Header />
           <Routes>
-            <Route path='/' element={< Home />}/>
-            <Route path='/Js' element={< Js />}/>
+            <Route path='/Home' element={< Home />}/>
+            <Route path='/' element={< Js />}/>
             <Route path='/React' element={< ReactJS />}/>
             <Route path='/Node' element={< NodeJS />}/>
             <Route path='/Express' element={< ExpressJS />}/>

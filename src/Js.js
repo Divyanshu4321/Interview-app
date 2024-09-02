@@ -109,15 +109,160 @@ const Js = () => {
                 as a collection of key-value pairs, where each key is a unique
                 identifier and each value can be any valid JavaScript data type,
                 including other objects <br />
-                  Here are some important methods of objects in JavaScript:
+                Here are some important methods of objects in JavaScript:
                 <ol>
                   <li>
-                      Object.keys(): - Returns an array of all the object's own property names.
+                    Object.keys(): - Returns an array of all the object's own
+                    property names.
                   </li>
                   <li>
-                      Object.values(): - Returns an array of all the object's own property values.
+                    Object.values(): - Returns an array of all the object's own
+                    property values.
                   </li>
                 </ol>
+              </h4>
+            </li>
+            <li className="my-5">
+              what is json
+              <br />
+              <h4 className="mt-3">
+                JSON (JavaScript Object Notation) is a lightweight
+                data-interchange format that is easy for humans to read and
+                write and easy for machines to parse and generate. In
+                JavaScript, JSON is commonly used to transmit data between a
+                server and a web application or between different parts of an
+                application. Key Points about JSON in JavaScript: Format: JSON
+                format is text-based and consists of key-value pairs. Keys are
+                strings. Values can be strings, numbers, objects, arrays,
+                booleans, or null.
+              </h4>
+            </li>
+            <li className="my-5">
+              difference between fetch and Axios method for API calls ?
+              <br />
+              <h4 className="mt-3">
+                Built-in: The fetch API is built into modern browsers, so no
+                additional installation is required.
+                <br />
+                Syntax: It uses a more verbose syntax, especially for handling
+                JSON data.
+                <br />
+                Error Handling: Only rejects the promise on network errors, not
+                on HTTP errors (like 404 or 500).
+                <br />
+                No Interceptors: Does not support request and response
+                interceptors.
+                <br />
+                No Automatic JSON Transformation: You need to manually transform
+                the response to JSON using response.json().
+                <br />
+                <br />
+                <strong>Axios</strong>
+                Library: Axios is a third-party library that needs to be
+                installed via npm or yarn.
+                <br />
+                Syntax: Provides a cleaner and more concise syntax.
+                <br />
+                Error Handling: Automatically handles HTTP errors and provides
+                more informative error messages.
+                <br />
+                Interceptors: Supports request and response interceptors,
+                allowing you to modify requests or responses before they are
+                handled.
+                <br />
+                Automatic JSON Transformation: Automatically transforms JSON
+                data, so you don’t need to call response.json().
+                <br />
+                <br />
+                Fetch is great for simple requests and is built into the
+                browser, making it easy to use without additional dependencies.
+                <br />
+                Axios offers more features, such as interceptors, automatic JSON
+                transformation, and better error handling, which can be very
+                useful for more complex applications12.
+              </h4>
+            </li>
+            <li className="my-5">
+              what is the single threaded langauges ?
+              <h4 className="mt-3">
+                A single-threaded language is one that executes one task at a
+                time using a single call stack. Here are some examples:
+                <br />
+                <br />
+                JavaScript <br />
+                <br />
+                Nature: JavaScript is inherently single-threaded, meaning it has
+                only one call stack to execute code.
+              </h4>
+            </li>
+            <li className="my-5">
+              what is the local , session in js ?
+              <h4 className="mt-3">
+                Scope: localStorage is scoped to the entire origin (domain and
+                protocol). This means the data stored is accessible from any
+                page within the same domain.
+                <br />
+                <br />
+                Persistence: Data in localStorage persists even after the
+                browser is closed and reopened. It does not expire unless
+                explicitly deleted. Storage Limit: Typically around 5-10 MB per
+                domain, but this can vary depending on the browser.
+                <br />
+                <br />
+                API: <br />
+                localStorage.setItem('key', 'value'): Stores a key-value pair.
+                <br />
+                localStorage.getItem('key'): Retrieves the value for a given
+                key. <br />
+                localStorage.removeItem('key'): Removes the key-value pair.
+                <br />
+                localStorage.clear(): Clears all key-value pairs. <br />
+                <br />
+                sessionStorage <br />
+                <br />
+                Scope: sessionStorage is scoped to the window or tab. Data is
+                accessible only within the same tab or window. <br />
+                <br />
+                Persistence: Data in sessionStorage persists only for the
+                duration of the page session. It is cleared when the tab or
+                window is closed. <br />
+                Storage Limit: Typically around 5-10 MB per domain, similar to
+                localStorage. <br />
+                <br />
+                API: <br />
+                sessionStorage.setItem('key', 'value'): Stores a key-value pair.
+                <br />
+                sessionStorage.getItem('key'): Retrieves the value for a given
+                key. <br />
+                sessionStorage.removeItem('key'): Removes the key-value pair.
+                <br />
+                sessionStorage.clear(): Clears all key-value pairs. <br />
+              </h4>
+            </li>
+            <li className="my-5">
+              what are the arrow functions ?
+              <h4 className="mt-3">
+                Arrow functions in JavaScript are a simpler way to write
+                functions. They were introduced in ES6 (ECMAScript 2015) and
+                have a more concise syntax compared to traditional functions.
+                <br />
+                Key features <br /><br />
+                    1. **Shorter Syntax**: <br />
+                       - Arrow functions use {`=>`} (fat arrow) and often require fewer characters. <br />
+                       - No need to use the `function` keyword. <br />
+                       - For a single-line function, you can omit the `return` keyword and curly braces. <br />
+<br /><br />
+                       javascript <br />
+                       const square = x {'=>'} x * x; // One parameter, no need for parentheses <br />
+                       const greet = () {"=>"} 'Hello'; // No parameters, need parentheses <br />
+                       
+<br /><br />
+                    2. **Implicit Return**: <br />
+                       - If the function body is a single expression, the value is returned automatically. <br />
+
+                       javascript <br />
+                       const multiply = (a, b) {"=>"} a * b; // Implicit return <br />
+                       
               </h4>
             </li>
           </h2>
